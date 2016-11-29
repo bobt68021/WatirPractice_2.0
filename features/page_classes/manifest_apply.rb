@@ -23,8 +23,8 @@ class ManifestApply
     url_links_element.set('www.test.com')
     add_button_element.click
     comment_element.set('I am a test comment')
-    sleep 1
-    submit_element.click
+    sleep 2
+    #submit_element.click // this attempt to submit the form but bring up validations error (on purpose)
   end
 
   def validate

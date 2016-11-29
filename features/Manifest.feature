@@ -1,4 +1,5 @@
 Feature: Viewing opportunities
+  
   Scenario: I want to view opportunities in Columbus
     Given I am on the opportunities page
     When I filter city to Columbus
