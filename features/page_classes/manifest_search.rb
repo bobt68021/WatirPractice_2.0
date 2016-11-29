@@ -15,7 +15,7 @@ class ManifestSearch
   end
 
   def get_city_results
-    return city_results_elements
+    city_results_elements
   end
 
 
@@ -24,6 +24,6 @@ class ManifestSearch
   end
 
   def get_type_results
-    return type_results_elements
+    type_results_elements
   end
 end

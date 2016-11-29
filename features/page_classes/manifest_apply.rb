@@ -16,13 +16,13 @@ class ManifestApply
 
 
   def fill_form
-    first_name_element.set('first name test')
-    last_name_element.set('first name test')
-    phone_number_element.set('6145550011')
-    email_adress_element.set('test@email.test')
-    url_links_element.set('www.test.com')
+    self.first_name = 'first naem test'
+    self.last_name = 'first name test'
+    self.phone_number = '6145550011'
+    self.email_adress = 'test@email.test'
+    self.url_links = 'www.test.com'
     add_button_element.click
-    comment_element.set('I am a test comment')
+    self.comment = 'I am a test comment'
     sleep 2
     #submit_element.click // this attempt to submit the form but bring up validations error (on purpose)
   end
