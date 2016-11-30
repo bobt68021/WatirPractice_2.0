@@ -7,5 +7,5 @@ Feature: Southwest Flights
 
   Scenario: Past departure days are unclickable
     Given I am on a flight page
-    When I try to click a departure date in the past
-    Then I am unable to update the departure date
+    When I try to click a departure or return date in the past
+    Then I am unable to update the departure or return date

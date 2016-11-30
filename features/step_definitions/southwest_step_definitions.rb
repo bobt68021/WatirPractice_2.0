@@ -32,14 +32,14 @@ Given(/^I am on a flight page$/) do
   end
 end
 
-When(/^I try to click a departure date in the past$/) do
+When(/^I try to click a departure or return date in the past$/) do
   on_page(SouthwestCalendar) do |page|
     page.set_dates
     page.click_past_dates
   end
 end
 
-Then(/^I am unable to update the departure date$/) do
+Then(/^I am unable to update the departure or return date$/) do
   on_page(SouthwestCalendar) do |page|
     expect(page.dates_unchanged?).to be true
   end

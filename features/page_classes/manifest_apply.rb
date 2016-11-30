@@ -24,7 +24,7 @@ class ManifestApply
     add_button_element.click
     self.comment = 'I am a test comment'
     sleep 2
-    #submit_element.click // this attempt to submit the form but bring up validations error (on purpose)
+    #submit_element.click // this will attempt to submit the form but bring up validations error (on purpose)
   end
 
   def validate

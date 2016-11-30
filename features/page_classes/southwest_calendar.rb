@@ -28,7 +28,6 @@ class SouthwestCalendar
     today = Date.today
     if Date.parse(date.attribute('carouselfulldate')) < today
       date.click
-      puts date.text
     end
   end
 
