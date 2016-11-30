@@ -18,7 +18,6 @@ class ManifestSearch
     city_results_elements
   end
 
-
   def filter_type type
     type_select_element.select type
   end
